@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94D97812844E90900F16AA7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94D97802844E90900F16AA7 /* Launch Screen.storyboard */; };
+		C95AB4E42844EF8B00EB93CD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95AB4E32844EF8B00EB93CD /* Login.swift */; };
+		C95AB4E62844F49B00EB93CD /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95AB4E52844F49B00EB93CD /* Register.swift */; };
 		C999F681283C669000872F48 /* amad_afl4_keeb_wikiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999F680283C669000872F48 /* amad_afl4_keeb_wikiApp.swift */; };
 		C999F683283C669000872F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C999F682283C669000872F48 /* ContentView.swift */; };
 		C999F685283C669300872F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C999F684283C669300872F48 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C94D97802844E90900F16AA7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C95AB4E32844EF8B00EB93CD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C95AB4E52844F49B00EB93CD /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		C999F67D283C669000872F48 /* amad-afl4-keeb-wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amad-afl4-keeb-wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C999F680283C669000872F48 /* amad_afl4_keeb_wikiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amad_afl4_keeb_wikiApp.swift; sourceTree = "<group>"; };
 		C999F682283C669000872F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C92EA3CD2844EC8100A99F35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C95AB4E22844EF7D00EB93CD /* Authentication */,
+				C999F682283C669000872F48 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C95AB4E22844EF7D00EB93CD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C95AB4E32844EF8B00EB93CD /* Login.swift */,
+				C95AB4E52844F49B00EB93CD /* Register.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		C999F674283C669000872F48 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				C999F680283C669000872F48 /* amad_afl4_keeb_wikiApp.swift */,
-				C999F682283C669000872F48 /* ContentView.swift */,
+				C92EA3CD2844EC8100A99F35 /* Views */,
 				C999F684283C669300872F48 /* Assets.xcassets */,
 				C999F686283C669300872F48 /* Preview Content */,
+				C94D97802844E90900F16AA7 /* Launch Screen.storyboard */,
 			);
 			path = "amad-afl4-keeb-wiki";
 			sourceTree = "<group>";
@@ -125,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94D97812844E90900F16AA7 /* Launch Screen.storyboard in Resources */,
 				C999F688283C669300872F48 /* Preview Assets.xcassets in Resources */,
 				C999F685283C669300872F48 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95AB4E42844EF8B00EB93CD /* Login.swift in Sources */,
 				C999F683283C669000872F48 /* ContentView.swift in Sources */,
+				C95AB4E62844F49B00EB93CD /* Register.swift in Sources */,
 				C999F681283C669000872F48 /* amad_afl4_keeb_wikiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,11 +295,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"amad-afl4-keeb-wiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 6R3F5G5AGC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -295,11 +325,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"amad-afl4-keeb-wiki/Preview Content\"";
+				DEVELOPMENT_TEAM = 6R3F5G5AGC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
