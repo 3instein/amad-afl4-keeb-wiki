@@ -39,7 +39,7 @@ struct ItemCard: View {
             Image(keyboard.image)
                 .resizable()
                 .frame(width: 256, height: 128, alignment: .center)
-        }
+        }.padding()
     }
 }
 

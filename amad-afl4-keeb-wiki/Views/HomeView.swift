@@ -34,7 +34,10 @@ struct HomeView: View {
 }
 
 struct HomeView_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
         HomeView()
+            .environmentObject(modelData)
     }
 }
