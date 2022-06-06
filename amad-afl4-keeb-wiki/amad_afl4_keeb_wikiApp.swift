@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct amad_afl4_keeb_wikiApp: App {
+    @StateObject private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

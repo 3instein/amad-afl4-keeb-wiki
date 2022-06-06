@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "name": "7V",
+      "designer": "Gok",
+      "layout": "Exploded 75%",
+      "mounting_system": "Leafspring PCB-Mount",
+      "weight": "2.6kg built",
+      "typing_angle": "7.0°",
+      "front_height": "-",
+      "image": "7v",
+      "is_favorite": false
+    },
+    {
+        "id": 2,
+        "name": "Phoenix TKL",
+        "designer": "Cable Car Design",
+        "layout": "F13 TKL",
+        "mounting_system": "Full isolation gasket",
+        "weight": "4kg built",
+        "typing_angle": "6.5°",
+        "front_height": "20.268mm",
+        "image": "phoenix-tkl",
+        "is_favorite": false
+    },
+    {
+        "id": 3,
+      "name": "Frog TKL",
+      "designer": "Geon works",
+      "layout": "F12 / F13 TKL",
+      "mounting_system": "Top with Rubber Pin (Aka. Tadpole)",
+      "weight": "2.1kg unbuilt",
+      "typing_angle": "6.0°",
+      "front_height": "16.5mm",
+      "image": "frog-tkl",
+      "is_favorite": false
+    },
+    {
+        "id": 4,
+      "name": "Vertizon HHKB",
+      "designer": "Anorexious",
+      "layout": "60% HHKB",
+      "mounting_system": "Hybrid Poron and O-ring gasket",
+      "weight": "900gr built",
+      "typing_angle": "7.5°",
+      "front_height": "21mm",
+      "image": "vertizon-hhkb",
+      "is_favorite": false
+    },
+    {
+        "id": 5,
+      "name": "Aquila",
+      "designer": "Coco's Keyboard Club",
+      "layout": "Alice",
+      "mounting_system": "Top mount",
+      "weight": "unknown",
+      "typing_angle": "6°",
+      "front_height": "16.5mm",
+      "image": "aquila",
+      "is_favorite": false
+    }
+]
