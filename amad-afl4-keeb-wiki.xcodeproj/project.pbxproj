@@ -65,11 +65,11 @@
 		C92EA3CD2844EC8100A99F35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C9B692FA284E31D00076D244 /* HomeView.swift */,
 				C95AB4E22844EF7D00EB93CD /* Authentication */,
 				C999F682283C669000872F48 /* ContentView.swift */,
 				C9B692C7284E30490076D244 /* BotNav.swift */,
 				C9B692C9284E30AA0076D244 /* Headline.swift */,
-				C9B692FA284E31D00076D244 /* HomeView.swift */,
 				C9B692FC284E32070076D244 /* SearchBar.swift */,
 				C9B69300284E32B10076D244 /* DetailView.swift */,
 				C9B69306284E33290076D244 /* ItemCard.swift */,
